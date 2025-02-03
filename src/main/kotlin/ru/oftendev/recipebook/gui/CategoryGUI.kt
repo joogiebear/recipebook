@@ -1,4 +1,4 @@
-package ru.oftendev.recipebook.gui
+package com.mystipixel.recipebook.gui
 
 import com.willfp.eco.core.gui.menu.Menu
 import org.bukkit.entity.Player

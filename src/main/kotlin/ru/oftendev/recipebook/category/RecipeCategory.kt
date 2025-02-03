@@ -1,4 +1,4 @@
-package ru.oftendev.recipebook.category
+package com.mystipixel.recipebook.category
 
 import com.willfp.eco.core.config.config
 import com.willfp.eco.core.config.interfaces.Config
@@ -15,8 +15,8 @@ import org.bukkit.inventory.RecipeChoice
 import org.bukkit.inventory.RecipeChoice.ExactChoice
 import org.bukkit.inventory.RecipeChoice.MaterialChoice
 import org.bukkit.inventory.ShapedRecipe
-import ru.oftendev.recipebook.gui.CategoryCategoryGUI
-import ru.oftendev.recipebook.gui.ItemCategoryGUI
+import com.mystipixel.recipebook.gui.CategoryCategoryGUI
+import com.mystipixel.recipebook.gui.ItemCategoryGUI
 
 class RecipeCategory(val config: Config) {
     val id = config.getString("id")

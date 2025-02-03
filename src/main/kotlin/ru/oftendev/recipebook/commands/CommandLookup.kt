@@ -1,13 +1,13 @@
-package ru.oftendev.recipebook.commands
+package com.mystipixel.recipebook.commands
 
 import com.willfp.eco.core.EcoPlugin
 import com.willfp.eco.core.command.impl.Subcommand
 import com.willfp.eco.core.items.Items
 import com.willfp.eco.core.recipe.parts.EmptyTestableItem
 import org.bukkit.entity.Player
-import ru.oftendev.recipebook.category.getRecipe
-import ru.oftendev.recipebook.gui.RecipeGUI
-import ru.oftendev.recipebook.recipeBookPlugin
+import com.mystipixel.recipebook.category.getRecipe
+import com.mystipixel.recipebook.gui.RecipeGUI
+import com.mystipixel.recipebook.recipeBookPlugin
 
 class CommandLookup(plugin: EcoPlugin) : Subcommand(plugin, "lookup",
     "recipebook.command.lookup", true) {

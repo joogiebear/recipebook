@@ -1,10 +1,10 @@
-package ru.oftendev.recipebook
+package com.mystipixel.recipebook
 
 import com.willfp.eco.core.EcoPlugin
 import com.willfp.eco.core.command.impl.PluginCommand
 import org.bukkit.event.Listener
-import ru.oftendev.recipebook.category.RecipeCategories
-import ru.oftendev.recipebook.commands.MainCommand
+import com.mystipixel.recipebook.category.RecipeCategories
+import com.mystipixel.recipebook.commands.MainCommand
 
 lateinit var recipeBookPlugin: RecipeBookPlugin
     private set

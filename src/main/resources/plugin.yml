@@ -1,9 +1,9 @@
 folia-supported: true
 name: ${pluginName}
 version: ${version}
-main: ru.oftendev.recipebook.RecipeBookPlugin
+main: com.mystipixel.recipebook.RecipeBookPlugin
 api-version: 1.17
-authors: [ _OfTeN_ ]
+authors: [ _Joogie_ ]
 depend:
   - eco
 commands:

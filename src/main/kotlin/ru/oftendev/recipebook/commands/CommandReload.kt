@@ -1,4 +1,4 @@
-package ru.oftendev.recipebook.commands
+package com.mystipixel.recipebook.commands
 
 import com.willfp.eco.core.EcoPlugin
 import com.willfp.eco.core.command.impl.Subcommand

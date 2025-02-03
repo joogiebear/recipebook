@@ -1,6 +1,6 @@
-package ru.oftendev.recipebook.category
+package com.mystipixel.recipebook.category
 
-import ru.oftendev.recipebook.recipeBookPlugin
+import com.mystipixel.recipebook.recipeBookPlugin
 
 object RecipeCategories {
     val REGISTRY = mutableListOf<RecipeCategory>()

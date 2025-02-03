@@ -1,11 +1,11 @@
-package ru.oftendev.recipebook.commands
+package com.mystipixel.recipebook.commands
 
 import com.willfp.eco.core.EcoPlugin
 import com.willfp.eco.core.command.impl.PluginCommand
 import org.bukkit.command.CommandSender
 import org.bukkit.entity.Player
-import ru.oftendev.recipebook.category.RecipeCategories
-import ru.oftendev.recipebook.recipeBookPlugin
+import com.mystipixel.recipebook.category.RecipeCategories
+import com.mystipixel.recipebook.recipeBookPlugin
 
 class MainCommand(plugin: EcoPlugin) : PluginCommand(plugin, "recipebook",
     "recipebook.command.recipebook", false) {

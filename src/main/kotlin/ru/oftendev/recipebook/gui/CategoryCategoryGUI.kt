@@ -1,4 +1,4 @@
-package ru.oftendev.recipebook.gui
+package com.mystipixel.recipebook.gui
 
 import com.willfp.eco.core.config.interfaces.Config
 import com.willfp.eco.core.gui.menu.Menu
@@ -11,7 +11,7 @@ import com.willfp.eco.core.items.Items
 import com.willfp.eco.core.items.builder.ItemStackBuilder
 import org.bukkit.entity.Player
 import org.bukkit.inventory.ItemStack
-import ru.oftendev.recipebook.category.RecipeCategory
+import com.mystipixel.recipebook.category.RecipeCategory
 
 class CategoryCategoryGUI(val config: Config, val parent: RecipeCategory): CategoryGUI {
     override fun open(player: Player, page: Int, prevMenu: Menu?) {
